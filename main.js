@@ -29,7 +29,11 @@ for (const taco of team) {
 }
 
 
-
+const div = document.querySelector("#main-btn");
+div.addEventListener("click",(event) => {
+  if(event.target.id === "secondary-btn")
+  console.log("hello")
+})
 
 
 
